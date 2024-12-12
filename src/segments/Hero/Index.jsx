@@ -28,15 +28,19 @@ const Hero = () => {
               color: "#b415ff",  // Added color change here
             }}
           >
-            Digital Innovation And Expansion
+            Transforming 
+            Ideas into Digital Reality
           </h4>
           <h1 className="hero-title">
-            Build, Innovate, And Transform with Us.
+          App Your Game with Cutting-Edge Digital Solutions
           </h1>
           <p className="hero-description">
-            Datawave brings your ideas to life with custom software, web, and
-            mobile solutions. From concept to launch, we drive your business
-            forward.
+          At Ole Technologies Limited, we don't just build software; we craft innovative solutions that 
+          solve real-world problems. Driven by a passion for excellence and a vision to transform 
+          industries, our team of seasoned developers, creative thinkers, and technology enthusiasts is here 
+          to bring your ideas to life.
+          With a track record of creating impactful mobile apps, web applications, and software 
+          management systems, we stand at the forefront of Kenya's technology revolution.
           </p>
           <div className="buttons-wrapper">
             <Link to="contact" smooth={true} className="btn primary">

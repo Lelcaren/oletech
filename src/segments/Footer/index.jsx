@@ -56,7 +56,7 @@ const Footer = () => {
         <section className="box-wrapper">
           <div className="box">
             <DataWaveLogo />
-            <p>Innovating IT solutions for business transformation.</p>
+            <p>Transforming Ideas into Digital Reality</p>
             <Socials />
           </div>
           {footer.map((list, index) => (

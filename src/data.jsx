@@ -39,8 +39,8 @@ export const navRoutes = [
     name: "About",
   },
   {
-    id: "services",
-    name: "Services",
+    id: "our services",
+    name: "Our Services",
   },
   {
     id: "portfolio",
@@ -57,49 +57,40 @@ export const whyChooseUs = [
   {
     title: "Proven Expertise",
     imageIcon: shieldImage,
-    description: `With years of experience across multiple industries, our team
-                brings deep knowledge and technical expertise to every project,
-                ensuring solutions that are both innovative and reliable.`,
+    description: `Over the years, we’ve built and deployed apps and systems that empower 
+                  businesses across industries`,
   },
   {
-    title: "Customized Solutions",
+    title: " Innovation at Heart",
     imageIcon: pencilImage,
-    description: `We understand that every business is unique. Our solutions are
-                tailored to fit each client's specific needs, providing maximum
-                flexibility and scalability for the future.`,
+    description: `Our in-house projects like Memeshot and Safiri reflect our 
+                  commitment to groundbreaking technology`,
   },
   {
-    title: "Exceptional Support",
+    title: "Client-Centric Approach",
     imageIcon: headsetImage,
-    description: `Our commitment doesn’t end at project delivery. We provide
-                dedicated, ongoing support to ensure your business continues to
-                succeed with our solutions.`,
+    description: `We work closely with our clients to ensure their goals and 
+                  visions are realized.`,
   },
 ];
 
 export const ourApproaches = [
   {
-    title: "Client-Centered Collaboration",
+    title: "Discovery & Planning",
     icon: FaHandshake,
-    description: `We prioritize close collaboration, working directly with
-                  clients to fully understand their vision and challenges. This
-                  partnership ensures each solution is perfectly aligned with
-                  their business goals.`,
+    description: `The process begins with a detailed consultation to understand your business goals, followed by crafting a comprehensive proposal that outlines project objectives, milestones, timelines, and costs for transparency and clarity.`,
   },
   {
-    title: "Innovation-Driven Solutions",
+    title: "Development & Refinement",
     icon: HiOutlineLightBulb,
-    description: `Innovation is at the heart of everything we do. We apply the
-                  latest technologies and creative problem-solving to develop
-                  solutions that drive long-term growth and competitiveness.`,
+    description: `Once approved, the project moves into development using agile methodologies. Rigorous testing and iterative feedback ensure the solution meets the highest standards and aligns with your vision.`,
   },
   {
-    title: "Agile and Adaptive",
+    title: "Deployment & Support",
     icon: GrSync,
-    description: `Our agile approach keeps us flexible and ready to adapt to
-                  changing needs. This method allows us to deliver scalable
-                  solutions that grow alongside your business.`,
+    description: `After finalizing the product, it is deployed, integrated, and supported with team training. Post-launch, ongoing support ensures smooth operations and long-term success.`,
   },
+
 ];
 
 export const services = [
