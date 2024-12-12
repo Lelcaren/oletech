@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.logo svg, 
+.logo img {
+  max-width: 150px; /* Set a larger maximum width */
+  max-height: 50px; /* Set a larger maximum height */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  color: var(--primary); /* Only applies to inline SVG */
+  object-fit: contain; /* Ensures the image/logo scales properly */
+  padding: 0; /* Remove any padding that may affect size */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+}
