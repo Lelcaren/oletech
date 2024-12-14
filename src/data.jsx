@@ -17,10 +17,16 @@ import {
   shieldImage,
 
   //Portfolio images import
-  portfolio1,
-  portfolio2,
-  portfolio3,
-  portfolio4,
+ 
+  portfolio9,
+  portfolio7,
+  portfolio12,
+  portfolio11,
+  portfolio10,
+  portfolio8,
+  portfolio13,
+  portfolio14,
+
   
 
 
@@ -143,50 +149,50 @@ export const portfolio = [
         and addressing climate change effects in arid and semi-arid regions.
         
       `,
-      image: portfolio1,
+      image: portfolio8,
     },
     
   {
     title: "Market Place App",
     description:
       "A marketplace like Jiji/OLX where buyers and sellers connect to trade products effortlessly.Post ads, find great deals, and shop with ease all in one place.",
-    image: portfolio2,
+    image: portfolio9,
   },
   {
     title: "Food Yangu App",
     description:
       "Food Yangu brings your favorite meals to your door in minutes.Browse restaurants, explore cuisines like Kenyan, Indian, Chinese and more, and order with a tap.Track your order in real time and enjoy great deals from top spots near you.Fast,easy and convinient food delivery.",
-    image: portfolio3,
+    image: portfolio14,
   },
   {
     title: "E-commerce Webstore",
     description:
       "Ideal for: Shops, Supermarkets, Clothing Stores, Restaurants, etc. Delivery in 7–10 Days. Includes: Payment Integration (Mpesa), Domain, Hosting, SSL, Brand Customization (Logo, Colors, Products). Deliverables: Admin Dashboard & Storefront. Key Features: Product catalog, secure user accounts, cart & checkout, SEO optimization, order tracking, inventory management, and more.",
-    image: portfolio4,
+    image: portfolio11,
   },
   {
     title: "Agroecology Digital App",
     description:
       "Description: A platform connecting producers, processors, logistics, and consumers in the agroecologynetwork. Access real-time weather updates, collaborate, and streamline the supply chain in one place.",
-    image: portfolio4,
+    image: portfolio10,
   },
   {
     title: "Tacky Cabs App",
     description:
       "Tacky Cabs is a reliable ride-hailing app offering fast, safe, and affordable transportation at your fingertips. Order a ride anytime, anywhere.",
-    image: portfolio4,
+    image: portfolio12,
   },
   {
     title: "Ibel Construction Website",
     description:
       "Ibel Construction Limited is a civil and roadworks company that has built a strong reputation for delivering quality service on time and at a competitive price.",
-    image: portfolio4,
+    image: portfolio7,
   },
   {
     title: "Swipehao App",
     description:
       " Swipehao is a real estate app where users swipe through properties to find those available forsale, furnished rentals, or hangouts. With a Tinder-like swipe feature and an Airbnb-style design, it’s yourgo-to app for discovering homes, hotels, and hidden gems nearby.",
-    image: portfolio4,
+    image: portfolio13,
   },
 ];
 

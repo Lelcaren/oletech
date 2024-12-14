@@ -8,6 +8,16 @@ export {default as portfolio3 } from './portfolio-3.png'
 export {default as portfolio4 } from './portfolio-4.png'
 export {default as portfolio5 } from './portfolio-5.png'
 export {default as portfolio6 } from './portfolio-6.png'
+export {default as portfolio7 } from './portfolio-7.png'
+export {default as portfolio8 } from './portfolio-8.png'
+export {default as portfolio9 } from './portfolio-9.png'
+export {default as portfolio10 } from './portfolio-10.png'
+export {default as portfolio11 } from './portfolio-11.png'
+export {default as portfolio12 } from './portfolio-12.png'
+export {default as portfolio13 } from './portfolio-13.jpg'
+export {default as portfolio14 } from './portfolio-14.jpg'
+
+
 
 export { default as client1 } from "./client-1.jpg";
 export { default as client2 } from "./client-2.jpg";
