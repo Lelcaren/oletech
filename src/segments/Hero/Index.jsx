@@ -21,16 +21,7 @@ const Hero = () => {
       <BoxAnimation style={{ backgroundColor: "#b415ff" }} /> {/* Applied background color here */}
       <div className="container">
         <div>
-          <h4
-            className="text-primary hero-subtitle"
-            style={{
-              background: convertHexToRgba("--primary", 0.2),
-              color: "#b415ff",  // Added color change here
-            }}
-          >
-            Transforming 
-            Ideas into Digital Reality
-          </h4>
+        
           <h1 className="hero-title">
           App Your Game with Cutting-Edge Digital Solutions
           </h1>

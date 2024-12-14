@@ -6,6 +6,8 @@ import Service from "./segments/Services";
 import Portfolio from "./segments/Portfolio";
 import Contact from "./segments/Contact";
 import Footer from "./segments/Footer";
+import BackToTop from "./components/BackToTop";
+import CTA from "./components/CTA";
 
 import "swiper/css";
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <BackToTop/>
+      <CTA/>
     </>
   );
 }

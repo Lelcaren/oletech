@@ -67,7 +67,7 @@ const About = () => {
             {
               title: "Who We Are",
               subtitle: "Your Trusted Technology Partner",
-              description: "Ole Technologies Limited is a leading technology company in Kenya dedicated to providing quality mobile app and software solutions for your business. With our staunch stand on quality, timely delivery and fueled by a drive to innovate, we don’t just work for our clients, we workwith them to turn dreams into reality.Our vision is to revolutionize the digital landscape by providing innovative, user-centric, and impactful technology solutions that empower businesses, streamline operations, and unlock new oportunities",
+              description: "Ole Technologies Limited is a leading technology company in Kenya dedicated to providing quality mobile app and software solutions for your business. With our staunch stand on quality, timely delivery and fueled by a drive to innovate, we don’t just work for our clients, we work with them to turn dreams into reality.Our vision is to revolutionize the digital landscape by providing innovative, user-centric, and impactful technology solutions that empower businesses, streamline operations, and unlock new oportunities",
               image: hero,
             }].map((vision, index) => (
               <div className="vision-item" key={index}>

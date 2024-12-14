@@ -21,6 +21,7 @@ import {
   portfolio2,
   portfolio3,
   portfolio4,
+  
 
 
 } from "./assets";
@@ -36,10 +37,10 @@ export const navRoutes = [
   },
   {
     id: "about",
-    name: "About",
+    name: "About Us",
   },
   {
-    id: "our services",
+    id: "services",
     name: "Our Services",
   },
   {
@@ -205,7 +206,7 @@ export const contactInfo = [
   {
     title: "Phone number",
     description: "Give Us a call",
-    value: "+254 079 555 163",
+    value: "+254 790 555 163",
     icon: FiPhoneCall,
   },
 ];
@@ -233,20 +234,24 @@ export const footer = [
     title: "Go to",
     subRoutes: [
       {
-        title: "About Us",
-        id: "about",
+        title: "Home",
+        id: "hero",
       },
       {
         title: "Our Services",
         id: "services",
       },
       {
-        title: "Testimonials",
-        id: "testimonials",
+        title: "About",
+        id: "about",
       },
       {
         title: "Portfolio",
         id: "portfolio",
+      },
+      {
+        title: "Contact",
+        id: "contact",
       },
     ],
   },
