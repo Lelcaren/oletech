@@ -265,15 +265,15 @@ export const footer = [
     title: "Our Services",
     subRoutes: [
       {
-        title: "Cloud Solutions",
-        id: "",
-      },
-      {
-        title: "Cybersecurity",
+        title: "Mobile Application Development",
         id: "",
       },
       {
         title: "Software Development",
+        id: "",
+      },
+      {
+        title: "Web App Development",
         id: "",
       },
       {
