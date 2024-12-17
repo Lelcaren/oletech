@@ -3,7 +3,8 @@
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  color: var(--color-white);
+  background-color: #ffffff; /* Set the background color to white */
+
 }
 #achievement .container {
   display: grid;
