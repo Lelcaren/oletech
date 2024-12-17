@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --primary: #b415ff; /* Changed to the desired color */
-  --bg-base: #121212;
-  --bg-secondary: #1c1c1c;
-  --bg-accent: #2a2a2e;
-  --text-color: #ffffff;
-  --text-muted: #9ca3af;
-  --border-color: #374151;
+  --primary: #b415ff; /* Keep purple as the primary color */
+  --bg-base: #ffffff; /* Change to white background */
+  --text-color: #000000; /* Change to black text */
+  --bg-secondary: #f5f5f5; /* Optional: Lighter gray for secondary backgrounds */
+  --bg-accent: #e0e0e0; /* Optional: Even lighter gray for accents */
+  --border-color: #d1d5db; /* Optional: Adjust border color */
   --color-white: #ffffff;
   --color-success: #33c648;
   --color-danger: #fc605b;
   --color-warning: #ffbb55;
   --transition: all 0.4s ease-out 0s;
 }
+
 * {
   padding: 0;
   margin: 0;

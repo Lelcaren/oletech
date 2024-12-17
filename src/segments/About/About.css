@@ -9,6 +9,18 @@
   position: relative;
   padding-bottom: 20px; /* Added bottom padding for spacing */
 }
+#about {
+  background-color: #ffffff; /* Set the entire section's background to white */
+  position: relative;
+  padding: 40px 20px; /* Add some padding for better spacing */
+}
+
+#about .container {
+  position: relative;
+  z-index: 2;
+}
+
+
 
 #about .vision-item .image-container {
   position: relative;

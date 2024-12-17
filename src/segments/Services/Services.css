@@ -1,9 +1,6 @@
 #services {
   position: relative;
-  background-image: url("../../assets/bg-1.svg");
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #ffffff; /* Set background to white */
 }
 #services .spotlight {
   width: 100%;
@@ -27,10 +24,12 @@
   justify-content: space-between;
   flex-direction: column;
   border-radius: 1.5rem;
+  background-color: #ffffff; /* Ensure services have white background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
 }
 #services .service .icon {
   font-size: 50px;
-  color: var(--primary);
+  color: #b415ff; /* Purple for icons */
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -41,10 +40,11 @@
   font-size: 20px;
   font-weight: 500;
   margin: 10px 0;
+  color: #000000; /* Black for title text */
 }
 #services .service .description {
   font-size: 16px;
-  color: var(--text-muted);
+  color: #000000; /* Black for description text */
 }
 
 #services .service .bottom {
@@ -57,8 +57,13 @@
   gap: 10px;
   font-size: 18px;
   background: transparent;
-  color: var(--primary);
+  color: #b415ff; /* Purple for buttons */
+  cursor: pointer;
 }
+#services .service .btn:hover {
+  text-decoration: underline; /* Optional: Add hover effect for buttons */
+}
+
 /* Responsiveness */
 @media screen and (max-width: 900px) {
   #services .services {

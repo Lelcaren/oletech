@@ -1,14 +1,16 @@
 footer {
   overflow: hidden;
+  background-color: #ffffff; /* Set footer background to white */
+  color: #000000; /* Default text color to black */
 }
+
 footer .newsletter {
   text-align: center;
   padding: 40px 20px;
   margin-bottom: 30px;
   border-radius: 1.5rem;
-  background-image: url("../../assets/bg-1.svg");
-  background-size: 400px;
-  color: var(--color-white);
+  background-color: #f5f5f5; /* Light grey background for the newsletter section */
+  color: #000000; /* Ensure text is black */
 }
 
 footer .newsletter .subscribe {
@@ -16,8 +18,9 @@ footer .newsletter .subscribe {
   align-items: stretch;
   max-width: 600px;
   margin: 20px auto;
-  background: var(--bg-secondary);
+  background: #ffffff; /* White background for the subscribe section */
   overflow: hidden;
+  border: 1px solid #e5e7eb; /* Add a subtle border for distinction */
   border-radius: 10px;
 }
 footer .newsletter .subscribe input {
@@ -26,19 +29,27 @@ footer .newsletter .subscribe input {
   height: 50px;
   overflow: hidden;
   padding: 0 15px;
-  color: var(--text-color);
+  color: #000000; /* Black text color */
+  border: none;
+  background-color: #ffffff; /* White input background */
 }
 footer .newsletter .subscribe button {
   padding: 10px 20px;
-  background: var(--primary);
-  color: var(--color-white);
+  background: #b415ff; /* Purple button */
+  color: #ffffff; /* White text for the button */
   cursor: pointer;
+  border: none;
 }
+footer .newsletter .subscribe button:hover {
+  background: #9b12e3; /* Darker purple on hover */
+}
+
 footer .box-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
 footer .logo {
   margin-bottom: 30px;
 }
@@ -50,12 +61,12 @@ footer .route {
   align-items: center;
   gap: 10px;
   margin: 1rem 0;
-  color: var(--text-color);
+  color: #000000; /* Black text for routes */
   cursor: pointer;
-  transition: var(--transition);
+  transition: color 0.4s ease-out;
 }
 footer .route:hover {
-  color: var(--primary);
+  color: #b415ff; /* Purple color on hover */
 }
 
 /* Responsiveness */
@@ -77,3 +88,4 @@ footer .route:hover {
     justify-content: center;
   }
 }
+
