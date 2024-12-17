@@ -19,6 +19,34 @@
   position: relative;
   z-index: 2;
 }
+#about .contact-us {
+  background-color: #fff; /* Ensure good background visibility */
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 1.5rem;
+}
+
+#about .contact-us h2 {
+  color: #000000; /* Ensure the text is visible */
+  font-size: 28px; /* Adjust font size */
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space below the heading */
+  padding: 0 20px; /* Add some padding */
+  opacity: 1; /* Ensure it's visible */
+  z-index: 2; /* Make sure it’s above other content */
+}
+
+#about .contact-us .btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
 
 
 

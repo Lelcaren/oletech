@@ -169,6 +169,23 @@ h1 {
 .whatsapp-floating img:hover {
   transform: scale(1.1);
 }
+/* Floating Back to Top Icon */
+.back-to-top {
+  position: fixed;
+  bottom: 90px; /* Space it above the WhatsApp button */
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-to-top img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;  /* Smaller size */
+  height: 40px; /* Smaller size */
+}
 
 
 @media screen and (max-width: 700px) {

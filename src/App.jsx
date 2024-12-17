@@ -7,8 +7,10 @@ import Portfolio from "./segments/Portfolio";
 import Contact from "./segments/Contact";
 import Footer from "./segments/Footer";
 import whatsappIcon from "./assets/whatsapp.png"; // Correctly imported the WhatsApp icon.
+import topIcon from "./assets/top.png"; // Correctly imported the Back to Top icon (replace with your image)
 
 import "swiper/css";
+
 function App() {
   return (
     <>
@@ -36,9 +38,22 @@ function App() {
           />
         </a>
       </div>
+
+      {/* Floating Back to Top Icon */}
+      <div className="back-to-top">
+        <a href="#top">
+          <img
+            src={topIcon} // Replace with your "Back to Top" icon image
+            alt="Back to Top"
+            width={50}
+            height={50}
+          />
+        </a>
+      </div>
     </>
   );
 }
 
 export default App;
+
 
