@@ -4,8 +4,9 @@ import Achievement from "./segments/Achievement";
 import About from "./segments/About";
 import Service from "./segments/Services";
 import Portfolio from "./segments/Portfolio";
+import Partners from "./segments/Partners";
 import Contact from "./segments/Contact";
-import Map from "./segments/Map"; // Note the capital M
+import Map from "./segments/Map";
 import Footer from "./segments/Footer";
 import whatsappIcon from "./assets/whatsapp.png";
 import topIcon from "./assets/top.png";
@@ -20,11 +21,11 @@ function App() {
       <About />
       <Service />
       <Portfolio />
+      <Partners/>
       <Contact />
-      <Map /> {/* Correctly imported Map component */}
+      <Map /> 
       <Footer />
       
-      {/* Floating WhatsApp Icon */}
       <div className="whatsapp-floating">
         <a
           href="https://wa.me/+254790555163"
@@ -40,7 +41,7 @@ function App() {
         </a>
       </div>
       
-      {/* Floating Back to Top Icon */}
+
       <div className="back-to-top">
         <a href="#top">
           <img

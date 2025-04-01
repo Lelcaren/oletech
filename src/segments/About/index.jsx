@@ -60,14 +60,14 @@ const About = () => {
           <div className="vision-container">
             {[{
               title: "Our Vision",
-              subtitle: "Transforming Technology into Progress",
-              description: "Ole Technologies strives to empower businesses by providing innovative IT solutions that enhance efficiency, drive growth, and increase competitiveness. Our vision is to deliver cutting-edge technologies tailored to meet unique business needs, streamlining processes and improving productivity. With a focus on quality and excellence, we aim to be a trusted partner in transforming your technology challenges into opportunities.",
+              subtitle: "Transforming Technology into Business Success",
+              description: "At Ole Technologies, we empower businesses through innovative software and mobile app development, enhancing efficiency, fostering growth, and sharpening competitive edges. We prioritize quality, creativity, and functionality to deliver excellence.",
               image: vision,
             },
             {
               title: "Who We Are",
               subtitle: "Your Trusted Technology Partner",
-              description: "Ole Technologies Limited is a leading technology company in Kenya dedicated to providing quality mobile app and software solutions for your business. With our staunch stand on quality, timely delivery and fueled by a drive to innovate, we don’t just work for our clients, we work with them to turn dreams into reality.Our vision is to revolutionize the digital landscape by providing innovative, user-centric, and impactful technology solutions that empower businesses, streamline operations, and unlock new oportunities",
+              description: "Ole Technologies Limited is a leading mobile app development company in Kenya, specializing in custom mobile and web applications for startups, SMEs, and enterprises. Whether you need an e-commerce platform, fintech app, ride-hailing system, or custom enterprise software, we have you covered.",
               image: hero,
             }].map((vision, index) => (
               <div className="vision-item" key={index}>

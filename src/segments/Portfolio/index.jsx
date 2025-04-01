@@ -8,9 +8,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import { useRef } from "react";
 
-
 const Portfolio = () => {
   const container = useRef(null);
+
   useGSAP(
     () => {
       gsap
@@ -34,6 +34,7 @@ const Portfolio = () => {
     },
     { scope: container }
   );
+
   return (
     <section id="portfolio" ref={container}>
       <div className="container">
@@ -44,7 +45,7 @@ const Portfolio = () => {
         <Swiper
           className="portfolio-wrapper"
           slidesPerView={1}
-          spaceBetween={30}
+          spaceBetween={50}
           modules={[Autoplay]}
           autoplay={true}
           loop={true}
@@ -57,12 +58,14 @@ const Portfolio = () => {
         >
           {portfolio.map((list, index) => (
             <SwiperSlide className="portfolio" key={index}>
-              <div className="image-wrapper">
-                <img src={list.image} alt="" />
-              </div>
-              <div className="content-wrapper">
-                <h3 className="title">{list.title}</h3>
-                <p className="description">{list.description}</p>
+              <div className="phone-frame">
+                <div className="image-wrapper">
+                  <img src={list.image} alt="" />
+                </div>
+                <div className="content-wrapper">
+                  <h3 className="title">{list.title}</h3>
+                  <p className="description">{list.description}</p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

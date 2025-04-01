@@ -62,21 +62,21 @@ export const navRoutes = [
 
 export const whyChooseUs = [
   {
-    title: "Proven Expertise",
+    title: "✔ Proven Track Record",
     imageIcon: shieldImage,
-    description: `Over the years, we've built and deployed apps and systems that empower businesses across industries`,
+    description: `Years of experience building impactful apps and software across industries.`,
     keywords: ["technology expertise", "proven solutions", "industry leadership", "software innovation", "business empowerment"]
   },
   {
-    title: "Innovation at Heart",
+    title: "✔ Innovation at Our Core",
     imageIcon: pencilImage,
-    description: `Our in-house projects like Memeshot and Safiri reflect our commitment to groundbreaking technology`,
+    description: `Our in-house projects, including Memeshot and Safiri, showcase our commitment to groundbreaking technology.`,
     keywords: ["technological innovation", "creative solutions", "startup projects", "digital creativity", "tech development"]
   },
   {
-    title: "Client-Centric Approach",
+    title: "✔ Client-Centric Approach",
     imageIcon: headsetImage,
-    description: `We work closely with our clients to ensure their goals and visions are realized.`,
+    description: `We collaborate closely with our clients to align our solutions with their business goals.`,
     keywords: ["customer-focused", "collaborative approach", "client success", "technology partnership", "custom solutions"]
   },
 ];
@@ -85,57 +85,57 @@ export const ourApproaches = [
   {
     title: "Discovery & Planning",
     icon: FaHandshake,
-    description: `The process begins with a detailed consultation to understand your business goals, followed by crafting a comprehensive proposal that outlines project objectives, milestones, timelines, and costs for transparency and clarity.`,
+    description: `We begin with a comprehensive consultation to understand your business objectives, followed by a detailed project roadmap, including objectives, milestones, timelines, and transparent pricing.`,
     keywords: ["project planning", "business consultation", "strategic approach", "technology roadmap", "transparent process"]
   },
   {
     title: "Development & Refinement",
     icon: HiOutlineLightBulb,
-    description: `Once approved, the project moves into development using agile methodologies. Rigorous testing and iterative feedback ensure the solution meets the highest standards and aligns with your vision.`,
+    description: `Our agile development process ensures high-quality solutions through iterative testing, feedback loops, and rigorous quality assurance.`,
     keywords: ["agile development", "software refinement", "quality assurance", "iterative process", "technology innovation"]
   },
   {
     title: "Deployment & Support",
     icon: GrSync,
-    description: `After finalizing the product, it is deployed, integrated, and supported with team training. Post-launch, ongoing support ensures smooth operations and long-term success.`,
+    description: `We ensure a smooth deployment with seamless integration, training, and ongoing post-launch support for long-term success.`,
     keywords: ["technology deployment", "continuous support", "product integration", "team training", "operational excellence"]
   },
 ];
 
 export const services = [
   {
-    title: "Mobile Application Development",
-    description: "Create high-performance mobile apps for iOS and Android that integrate with cloud solutions to boost business mobility and productivity.",
+    title: "Mobile App Development",
+    description: "Develop high-performance mobile applications for iOS and Android with cloud integrations to enhance business mobility and productivity.",
     icon: WiDayCloudyGusts,
     keywords: ["mobile app development", "iOS development", "Android apps", "cloud integration", "business mobility"]
   },
   {
-    title: "Software Development",
-    description: "Build custom software solutions that are secure, scalable, and tailored to your business, improving performance and user experience.",
+    title: "Custom Software Development",
+    description: "Build secure, scalable, and tailored software solutions to improve operational efficiency and customer experience.",
     icon: BsShieldLock,
     keywords: ["custom software", "secure solutions", "scalable development", "business software", "performance optimization"]
   },
   {
     title: "Web App Development",
-    description: "Develop responsive, scalable web apps using the latest technologies to enhance user experience and business efficiency.",
+    description: "Create responsive, scalable web applications using the latest technologies to improve user engagement and business processes.",
     icon: FaCode,
     keywords: ["web application", "responsive design", "scalable web solutions", "digital transformation", "user experience"]
   },
   {
     title: "IT Consulting",
-    description: "Get expert IT consulting to optimize your technology and drive business growth with strategic guidance on software",
+    description: "Leverage expert guidance to optimize technology strategies, enhance security, and drive digital transformation.",
     icon: FaRegLightbulb,
     keywords: ["IT consulting", "technology strategy", "business optimization", "digital advisory", "software guidance"]
   },
   {
     title: "UI/UX Design",
-    description: "Design intuitive and engaging UI/UX for web and mobile apps, ensuring seamless user experiences that drive satisfaction.",
+    description: "Craft intuitive, visually appealing, and user-friendly digital experiences that enhance user engagement.",
     icon: BsBarChartLine,
     keywords: ["UI/UX design", "user interface", "user experience", "design optimization", "digital interaction"]
   },
   {
     title: "Cloud & DevOps",
-    description: "Enhance system reliability and streamline development with cloud and DevOps solutions, including CI/CD automation.",
+    description: "Improve system reliability, scalability, and development efficiency with cloud solutions and DevOps automation.",
     icon: IoGitNetworkSharp,
     keywords: ["cloud solutions", "DevOps services", "CI/CD automation", "system reliability", "infrastructure optimization"]
   },
@@ -143,75 +143,72 @@ export const services = [
 
 export const portfolio = [
   {
-    title: "Qiksearch: Agricultural Innovation Platform",
-    description: `Innovative agricultural technology solution empowering farming communities in Kenya. Helps smallholder farmers optimize crop productivity, reduce post-harvest losses, and build climate resilience through data-driven insights and technological interventions.`,
-    image: portfolio8,
-    projectLink: "https://www.qiksearch.org",
-    keywords: ["agricultural technology", "farming innovation", "climate resilience", "agritech", "Kenya"]
-  },
-  {
-    title: "Market Place E-Commerce App",
-    description: `Comprehensive online marketplace platform connecting buyers and sellers seamlessly. Features robust ad posting, secure transactions, and user-friendly interface for effortless product discovery and trading across multiple categories.`,
-    image: portfolio9,
-    projectLink: "https://marketplace.example.com",
-    keywords: ["e-commerce platform", "online marketplace", "buy and sell", "digital trading", "mobile commerce"]
-  },
-  {
-    title: "Food Yangu Delivery App",
-    description: `Cutting-edge food delivery application revolutionizing urban dining experiences. Offers real-time restaurant browsing, diverse cuisine options, instant order tracking, and convenient meal delivery services across multiple food categories.`,
-    image: portfolio14,
-    projectLink: "https://www.foodyangu.com",
-    keywords: ["food delivery", "restaurant app", "meal ordering", "urban dining", "food tech"]
-  },
-  {
-    title: "E-commerce Webstore Solution",
-    description: `Comprehensive e-commerce website development package tailored for businesses. Includes advanced features like Mpesa payment integration, custom branding, responsive design, and robust admin dashboard for seamless online retail management.`,
-    image: portfolio11,
-    projectLink: "https://webstore.example.com",
-    keywords: ["e-commerce website", "online store", "digital retail", "payment integration", "business website"]
-  },
-  {
-    title: "Agroecology Digital Networking Platform",
-    description: `Advanced digital ecosystem connecting agricultural stakeholders from production to consumption. Provides real-time weather insights, collaborative tools, and streamlined supply chain management for sustainable agricultural practices.`,
-    image: portfolio10,
-    projectLink: "https://agroecology.digital",
-    keywords: ["agricultural networking", "sustainable farming", "supply chain", "agritech platform", "digital agriculture"]
-  },
-  {
-    title: "Tacky Cabs Ride-Hailing App",
-    description: `Modern transportation solution offering reliable, safe, and affordable ride-hailing services. Features instant ride booking, transparent pricing, and user-friendly interface for convenient urban mobility.`,
-    image: portfolio12,
-    projectLink: "https://www.tackycabs.com",
-    keywords: ["ride-hailing", "transportation app", "urban mobility", "taxi service", "digital transportation"]
-  },
-  {
-    title: "Ibel Construction Corporate Website",
-    description: `Professional web presence for a leading civil and roadworks construction company. Showcases company expertise, project portfolio, and commitment to delivering high-quality infrastructure solutions on time and within budget.`,
-    image: portfolio7,
-    projectLink: "https://www.ibelconstruction.com",
-    keywords: ["construction website", "civil engineering", "infrastructure", "project portfolio", "corporate website"]
-  },
-  {
-    title: "Swipehao Real Estate Discovery App",
-    description: `Innovative real estate mobile application with Tinder-like property exploration interface. Enables users to discover properties for sale, rentals, and local accommodations through an intuitive and engaging user experience.`,
+    title: "Swipehao App",
+    description: `A revolutionary real estate app with a Tinder-like swipe feature, helping users discover homes, rentals, and hangouts effortlessly.`,
     image: portfolio13,
     projectLink: "https://www.swipehao.com",
     keywords: ["real estate app", "property discovery", "rental platform", "mobile real estate", "property search"]
   },
   {
-    title: " Scenic Wilderness",
-    description: `Scenic Wilderness is a flight booking system for a local charter flight that connects one to their wildest dreams around the vast ranges of The Mara and Amboseli. 
-.`,
-    image: portfolio15,  // You might want to replace this with an actual project image
+    title: "Qiksearch Website",
+    description: `A social enterprise platform improving agricultural productivity, reducing losses, and addressing climate change challenges.`,
+    image: portfolio8,
+    projectLink: "https://www.qiksearch.org",
+    keywords: ["agricultural technology", "farming innovation", "climate resilience", "agritech", "Kenya"]
+  },
+  {
+    title: "Market Place App",
+    description: `A dynamic e-commerce platform connecting buyers and sellers for seamless trading experiences, similar to Jiji and OLX.`,
+    image: portfolio9,
+    projectLink: "https://marketplace.example.com",
+    keywords: ["e-commerce platform", "online marketplace", "buy and sell", "digital trading", "mobile commerce"]
+  },
+  {
+    title: "Food Yangu App",
+    description: `A fast and convenient food delivery app that brings top restaurant meals to your doorstep, offering real-time tracking and great deals.`,
+    image: portfolio14,
+    projectLink: "https://www.foodyangu.com",
+    keywords: ["food delivery", "restaurant app", "meal ordering", "urban dining", "food tech"]
+  },
+  {
+    title: "E-commerce Webstore",
+    description: `An all-in-one online store solution for shops, supermarkets, and restaurants, featuring secure payment integration (Mpesa), SEO optimization, order tracking, and inventory management.`,
+    image: portfolio11,
+    projectLink: "https://webstore.example.com",
+    keywords: ["e-commerce website", "online store", "digital retail", "payment integration", "business website"]
+  },
+  {
+    title: "Agroecology Digital App",
+    description: `A networking platform for farmers, processors, and consumers, offering real-time weather updates and an optimized supply chain.`,
+    image: portfolio10,
+    projectLink: "https://agroecology.digital",
+    keywords: ["agricultural networking", "sustainable farming", "supply chain", "agritech platform", "digital agriculture"]
+  },
+  {
+    title: "Tacky Cabs App",
+    description: `A user-friendly ride-hailing app ensuring safe, reliable, and affordable transportation on demand.`,
+    image: portfolio12,
+    projectLink: "https://www.tackycabs.com",
+    keywords: ["ride-hailing", "transportation app", "urban mobility", "taxi service", "digital transportation"]
+  },
+  {
+    title: "Ibel Construction Website",
+    description: `A professional website for Ibel Construction Limited, a leading firm in civil and roadworks, showcasing their expertise and projects.`,
+    image: portfolio7,
+    projectLink: "https://www.ibelconstruction.com",
+    keywords: ["construction website", "civil engineering", "infrastructure", "project portfolio", "corporate website"]
+  },
+  {
+    title: "Scenic Wilderness",
+    description: `Scenic Wilderness is a flight booking system for a local charter flight that connects one to their wildest dreams around the vast ranges of The Mara and Amboseli.`,
+    image: portfolio15,
     projectLink: "https://scenicflights.vercel.app",
     keywords: ["healthcare technology", "patient management", "telemedicine", "digital health", "medical software"]
   },
   {
-    title: "PangaSquadii ",
-    description: ` PangaSquadii is the first Kenyan football fantasy challenge where users create virtual teams using real-world players, join/ create leagues and compete for real cash prices with friends based on actual game performance.
-
-`,
-    image: portfolio16,  // You might want to replace this with an actual project image
+    title: "PangaSquadii",
+    description: `PangaSquadii is the first Kenyan football fantasy challenge where users create virtual teams using real-world players, join/create leagues and compete for real cash prices with friends based on actual game performance.`,
+    image: portfolio16,
     projectLink: "https://pangasquadii.digitlogic.co.ke",
     keywords: ["e-learning platform", "online education", "learning management", "digital classroom", "educational technology"]
   }
